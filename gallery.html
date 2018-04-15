@@ -29,9 +29,10 @@ Template Name: Astrologer
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/viewer.min.css">
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
-<script src='/google_analytics_auto.js'></script></head>
+</head>
 
 <body>
     <!-- preloader Start -->
@@ -415,7 +416,14 @@ Template Name: Astrologer
         </div>
     </div>
     <!-- hs About Title End -->
+    <!-- Gallery images start -->
+    <div class="container-fluid">
+        <div class="gallery row">
+            
+        </div>
+    </div>
 
+    <!-- Gallery images end -->
     <!-- hs footer wrapper Start -->
     <div class="hs_footer_main_wrapper">
         <div class="container">
@@ -484,22 +492,12 @@ Template Name: Astrologer
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/custom.js"></script>
-    <!--main js file end-->
+    <script src="js/getAllimages.js"></script>
+    <script src="js/viewer.min.js"></script>
     <script>
-        function initMap() {
-        	var uluru = {lat: -36.742775, lng:  174.731559};
-        	var map = new google.maps.Map(document.getElementById('map'), {
-        	zoom: 15,
-        	scrollwheel: false,
-        	center: uluru
-        	});
-        	var marker = new google.maps.Marker({
-        	position: uluru,
-        	map: map
-        	});
-        	}
+        $('.gallery').viewer('show');
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmdG8C6ItElq5ipuFv6O9AE48wyZm_vqU&callback=initMap">
+    <!--main js file end-->
     </script>
 </body>
 

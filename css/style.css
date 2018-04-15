@@ -6847,3 +6847,11 @@ width:100%;
 }
 /*-- btc shop single tabs Wrapper End --*/
 /**************------ SHOP SINGLE CSS END -------*******************/
+
+/****** Gallery page custom css ******/
+.image-file{
+	
+	max-height: 280px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
