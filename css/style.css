@@ -6848,10 +6848,23 @@ width:100%;
 /*-- btc shop single tabs Wrapper End --*/
 /**************------ SHOP SINGLE CSS END -------*******************/
 
+/****** About US Css Start *******/
+.about-us-main .hs_about_heading_main_wrapper{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.about-us-content p{
+	font-size: 18px;
+	text-align: center;
+}
+
+/****** About Us Css end ********/
+
 /****** Gallery page custom css ******/
 .image-file{
-	
 	max-height: 280px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	cursor: pointer;
 }
