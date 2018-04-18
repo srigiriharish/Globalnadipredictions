@@ -6847,7 +6847,56 @@ width:100%;
 }
 /*-- btc shop single tabs Wrapper End --*/
 /**************------ SHOP SINGLE CSS END -------*******************/
+/**** Nadi Astrology css start ******/
+.nadi-astrology-main{
+	background: url(../images/content/about-backgroundd.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.nadi-astrology-main .hs_about_heading_main_wrapper{
+padding-top: 10px;
+}
+.about-nadi{
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.about-nadi p{
+	font-size: 18px;
+}
+.about-nadi-content{
+	padding-top: 10px;
+	box-shadow: 0px 1px 10px;
+	height: 450px;
+}
+.about-nadi-heading span{
+	border-bottom: 1px solid black;
+	padding-bottom:10px;
 
+}
+.what-is-nadi-content{
+	/* box-shadow: 0px 0px 10px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.what-is-nadi-content .center-img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.what-is-nadi-content ul li{
+	font-size: 18px;
+}
+.nadi-photo{
+	background: url(../images/content/nadi-2.jpg);
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -320px;
+}
+/***** Nadi Astrology css end *****/
 /****** About US Css Start *******/
 .about-us-main{
 	background: url('../images/content/about-backgroundd.jpg');
