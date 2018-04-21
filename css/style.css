@@ -1132,6 +1132,10 @@ width:100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
 }
+.hs_slider_tabs_icon_wrapper i img{
+	height: 100%;
+	padding: 5px;
+}
 .hs_slider_tabs_icon_wrapper i{
 	width:65px;
 	height:65px;
@@ -2163,15 +2167,15 @@ transition: all 0.5s;
 .hs_sign_right_tabs_border_wrapper1 span:before{
 	content: '';
     border: 1px dashed #565656;
-    width: 35px;
+    width: 30px;
     position: absolute;
 	 -moz-transform:rotate(132deg);
     -webkit-transform:rotate(132deg);
     -o-transform:rotate(132deg);
     -ms-transform:rotate(132deg);
     transform: rotate(132deg);
-    top: 95px;
-    left: -239px;
+    top: 92px;
+    left: -234px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2197,9 +2201,9 @@ transition: all 0.5s;
 .hs_sign_right_tabs_border_wrapper2 span:after{
 	content: '';
     border: 1px dashed #565656;
-    width: 166px;
+    width: 150px;
     position: absolute;
-    left: -161px;
+    left: -148px;
 	 -moz-transform:rotate(166deg);
     -webkit-transform:rotate(166deg);
     -o-transform:rotate(166deg);
@@ -2231,9 +2235,9 @@ transition: all 0.5s;
 .hs_sign_right_tabs_border_wrapper3 span:after{
 	    content: '';
     border: 1px dashed #565656;
-    width: 145px;
+    width: 110px;
     position: absolute;
-    left: -139px;
+    left: -110px;
 	 -moz-transform:rotate(180deg);
     -webkit-transform:rotate(180deg);
     -o-transform:rotate(180deg);
@@ -2265,14 +2269,14 @@ transition: all 0.5s;
 .hs_sign_right_tabs_border_wrapper4 span:after{
 	    content: '';
     border: 1px dashed #565656;
-    width: 145px;
+    width: 118px;
     position: absolute;
-    left: -139px;
-	 -moz-transform:rotate(196deg);
-    -webkit-transform:rotate(196deg);
-    -o-transform:rotate(196deg);
-    -ms-transform:rotate(196deg);
-    transform: rotate(196deg);
+    left: -112px;
+	 -moz-transform:rotate(198deg);
+    -webkit-transform:rotate(198deg);
+    -o-transform:rotate(198deg);
+    -ms-transform:rotate(198deg);
+    transform: rotate(198deg);
     top: -16px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -2299,14 +2303,14 @@ transition: all 0.5s;
 .hs_sign_right_tabs_border_wrapper5 span:after{
 	    content: '';
     border: 1px dashed #565656;
-    width: 184px;
+    width: 165px;
     position: absolute;
-    left: -175px;
-	 -moz-transform:rotate(205deg);
-    -webkit-transform:rotate(205deg);
-    -o-transform:rotate(205deg);
-    -ms-transform:rotate(205deg);
-    transform: rotate(205deg);
+    left: -150px;
+	 -moz-transform:rotate(209deg);
+    -webkit-transform:rotate(209deg);
+    -o-transform:rotate(209deg);
+    -ms-transform:rotate(209deg);
+    transform: rotate(209deg);
     top: -37px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
