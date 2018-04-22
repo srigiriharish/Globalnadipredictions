@@ -882,7 +882,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c37f2c', end
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(../images/header/slide.jpg) 50% 0 repeat-y;
+  background: url(../images/content/swastik-background.png) 50% 0 repeat-y;
   position: relative;
   min-height:850px;
 }
@@ -913,7 +913,7 @@ width:100%;
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
 }
 .slider-area .carousel-inner .item .carousel-captions .content {
   display: block;
@@ -3686,8 +3686,21 @@ transition: all 0.5s;
 /**************-------------------- ABOUT CSS START --------------*******************/
 /*-- hs title wrapper Start --*/
 .hs_indx_title_main_wrapper{
-	background:url('../images/content/advert_bg.jpg') 50% 0 repeat-y;
-	background-position:center 0;
+	background:url('../images/content/advert_bg.jpg');
+	background-position:0 50%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
+	width:100%;
+	height:100%;
+	position:relative;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.hs_indx_title_main_wrapper-homam{
+	background:url('../images/content/homam-heading.jpg');
+	background-position:0 50%;
 	background-size:cover;
 	background-repeat:no-repeat;
 	float:left;
@@ -6336,6 +6349,7 @@ transition: all 0.5s;
 	padding-top:20px;
 }
 /**************------ BLOG CATEGORIES CSS END -------*******************/
+
 /**************------ CONTACT CSS START -------*******************/
 .hs_contact_tittle_main_wrapper{
 	float:left;
@@ -7152,6 +7166,48 @@ padding-top: 10px;
 	background-size: 100% 100%;
 }
 /** Homam arrangements css ends **/
+
+/***** Kandaams css start *****/
+.kandams-main{
+	background: url(../images/content/about-backgroundd.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.kandams-heading-main{
+	margin-bottom: 20px;
+}
+.note{
+	margin-bottom: 10px;
+}
+.note p{
+	font-size: 18px;
+}
+.note h3 span{
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+.kandams-box{
+	background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	width: 23%;
+	margin-left: 1%;
+	margin-right: 1%;
+	min-height: 215px;
+    max-height: 215px;
+}
+.kandams-box h3{
+	text-align: center;
+}
+.kandams-box p{
+
+	text-align: center;
+}
+/***** Kandaams css end *****/
 /****** Gallery page custom css ******/
 .gallery-main{
 	background: url(../images/content/about-backgroundd.jpg);
