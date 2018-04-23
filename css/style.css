@@ -514,11 +514,7 @@ ul{
 	width:100%;
 /*	background:#ff7e00;*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c37f2c+0,f49821+49 */
-background: #c37f2c; /* Old browsers */
-background: -moz-linear-gradient(left, #c37f2c 0%, #f49821 49%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #c37f2c 0%,#f49821 49%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #c37f2c 0%,#f49821 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c37f2c', endColorstr='#f49821',GradientType=1 ); /* IE6-9 */
+	background: chocolate;
 	position:relative;
 }
 .hs_main_menu li{
@@ -698,7 +694,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c37f2c', end
 }
 .menu_fixed{
 	position:fixed;
-	background:#ff7e00;
+	background:chocolate;
 	-webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow:  0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     -o-box-shadow:  0px 1px 20px 0px rgba(0, 0, 0, 0.10);
@@ -3688,6 +3684,19 @@ transition: all 0.5s;
 .hs_indx_title_main_wrapper{
 	background:url('../images/content/advert_bg.jpg');
 	background-position:0 50%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
+	width:100%;
+	height:100%;
+	position:relative;
+	padding-top:60px;
+	padding-bottom:60px; 
+}
+
+.hs_indx_title_main_wrapper-nadi{
+	background:url('../images/content/nadi-heading.jpg');
+	background-position:0px -180px;
 	background-size:cover;
 	background-repeat:no-repeat;
 	float:left;
