@@ -7170,12 +7170,42 @@ padding-top: 10px;
 }
 /****** About Us Css end ********/
 
+/** Remedies and effects css start **/
+.remedies-and-effects-main{
+	background: url(../images/content/about-backgroundd.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.remedies-image{
+	height: 300px;
+	background: url('../images/content/yagna-1.jpg') no-repeat;
+	background-size: cover;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: 2px solid gray;
+}
+.benefits-heading{
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+.remedies{
+	padding-bottom: 20px;
+}
+.homam-and-benefits p{
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+/** Remedies and effects css end **/
 /** Homam arrangements css start **/
 .homam-arrangements-main{
 	background: url(../images/content/about-backgroundd.jpg);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+
+
 /** Homam arrangements css ends **/
 
 /***** Kandaams css start *****/
