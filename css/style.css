@@ -514,7 +514,7 @@ ul{
 .hs_navigation_header_wrapper{
 	float:left;
 	width:100%;
-	background:#003E83;;
+	background:darkslateblue;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c37f2c+0,f49821+49 */
 	
 	position:relative;
@@ -1130,6 +1130,9 @@ width:100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
 }
+a, a:hover, a:focus{
+	color: white;
+}
 .hs_slider_tabs_icon_wrapper i img{
 	height: 100%;
 	padding: 5px;
@@ -1140,7 +1143,7 @@ width:100%;
 	float:left;
 	text-align:center;
 	line-height:65px;
-	background:#ff7e00;
+	background: transparent;
 	-webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
@@ -7092,7 +7095,7 @@ transition: all 0.5s;
 /**************------ SHOP SINGLE CSS END -------*******************/
 /**** Nadi Astrology css start ******/
 .nadi-astrology-main{
-	background: url(../images/content/about-backgroundd.jpg);
+	background: url(../images/content/grey-back2.jpg);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -7142,7 +7145,7 @@ padding-top: 10px;
 /***** Nadi Astrology css end *****/
 /****** About US Css Start *******/
 .about-us-main{
-	background: url('../images/content/about-backgroundd.jpg');
+	background: url('../images/content/grey-back2.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -7171,7 +7174,7 @@ padding-top: 10px;
 /****** About Us Css end ********/
 /*** Online nadi ***/
 .online-prediction-main{
-	background: url('../images/content/about-backgroundd.jpg');
+	background: url('../images/content/grey-back2.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding-top: 10px;
@@ -7203,7 +7206,7 @@ padding-top: 10px;
 /*** Online nadi end ***/
 /** Remedies and effects css start **/
 .remedies-and-effects-main{
-	background: url(../images/content/about-backgroundd.jpg);
+	background: url(../images/content/grey-back2.jpg);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -7231,7 +7234,7 @@ padding-top: 10px;
 /** Remedies and effects css end **/
 /** Homam arrangements css start **/
 .homam-arrangements-main{
-	background: url(../images/content/about-backgroundd.jpg);
+	background: url(../images/content/grey-back2.jpg);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -7241,7 +7244,7 @@ padding-top: 10px;
 
 /***** Kandaams css start *****/
 .kandams-main{
-	background: url(../images/content/about-backgroundd.jpg);
+	background: url(../images/content/grey-back2.jpg);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -7282,7 +7285,7 @@ padding-top: 10px;
 /***** Kandaams css end *****/
 /****** Gallery page custom css ******/
 .gallery-main{
-	background: url(../images/content/about-backgroundd.jpg);
+	background: url(../images/content/grey-back2.jpg);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
