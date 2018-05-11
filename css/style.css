@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Josefin+Sans|Montserrat|Roboto+Slab');
 
 [Table of contents]
  
@@ -7262,24 +7263,43 @@ padding-top: 10px;
 	border-bottom: 1px solid black;
 	padding-bottom: 5px;
 }
+.kandam-number-image{
+	padding-bottom: 10px;
+}
+.kandam-heading{
+	padding-bottom: 10px;
+}
 .kandams-box{
+font-family: 'Roboto Slab', serif;
 	background: transparent;
-    border-radius: 5px;
-    box-shadow: 0px 0px 15px;
-    margin-bottom: 20px;
+	border-radius: 5px;
+	/* font-family: 'Montserrat', sans-serif; */
+    /* box-shadow: 0px 0px 15px; */
+    margin-bottom: 25px;
     padding-top: 10px;
 	padding-bottom: 10px;
-	width: 23%;
+	/* width: 23%;
 	margin-left: 1%;
-	margin-right: 1%;
+	margin-right: 1%; */
 	min-height: 215px;
-    max-height: 215px;
+	max-height: 215px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+.kandams-box:hover {
+    transform: scale(1.05,1.05);
+	transition: 0.5s all;
+}
+.main-heading{
+	padding-top: 15px;
 }
 .kandams-box h3{
 	text-align: center;
+	
 }
 .kandams-box p{
-
+	font-weight: bold;
+	font-size: 13px;
 	text-align: center;
 }
 /***** Kandaams css end *****/
