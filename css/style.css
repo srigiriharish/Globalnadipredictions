@@ -920,8 +920,8 @@ width:100%;
   z-index: 999;
   overflow: hidden;
   vertical-align: middle;
-  padding-top:250px;
-  padding-bottom:250px;
+  padding-top:50px;
+  /* padding-bottom:250px; */
 }
 .slider-area .carousel-inner .item .carousel-captions .content_tabs{
 	display: block;
@@ -929,7 +929,7 @@ width:100%;
   z-index: 999;
   overflow: hidden;
   vertical-align: middle;
-  padding-top:140px;
+  padding-top:50px;
 }
 .slider-area .carousel-inner .item .carousel-captions .content h1{
 	animation-delay: 0.5s;
@@ -3251,7 +3251,7 @@ transition: all 0.5s;
 	background-repeat:no-repeat;
 	float:left;
 	width:100%;
-	height:100%;
+	height:80%;
 	padding-top:100px;
 	padding-bottom:100px;
 	position:relative;
