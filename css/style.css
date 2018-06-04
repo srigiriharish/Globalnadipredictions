@@ -929,15 +929,19 @@ width:100%;
   z-index: 999;
   overflow: hidden;
   vertical-align: middle;
-  padding-top:50px;
+  padding-top:100px;
 }
 .slider-area .carousel-inner .item .carousel-captions .content h1{
 	animation-delay: 0.5s;
 	margin: 0 0 10px;
 }
+.slider-area .carousel-inner .item .carousel-captions .content h1 span{
+	color: white;
+	font-size: 27px;
+}
 .slider-area .carousel-inner .item .carousel-captions .content h2 {
   color: #fff;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 0;
   margin: 0 0 20px;
   animation-delay: 1.5s;
@@ -3445,6 +3449,7 @@ transition: all 0.5s;
 }
 .hs_footer_logo_wrapper p{
 	margin-top:20px;
+	color: white;
 }
 .hs_footer_logo_wrapper h4 a{
 	font-size:16px;
@@ -3548,6 +3553,7 @@ transition: all 0.5s;
 }
 .hs_footer_help_wrapper p{
 	margin-top:30px;
+	color: white;
 }
 .hs_footer_help_btn{
 	display:inline-block;
@@ -3628,6 +3634,7 @@ transition: all 0.5s;
 	font-weight:bold;
 }
 .hs_footer_contact_wrapper p{
+	color: white;
 	margin-top:30px;
 }
 .hs_footer_contact_wrapper p span{
