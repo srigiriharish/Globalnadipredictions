@@ -2,16 +2,15 @@
 	display: inline;
 	position: relative;
 	z-index: 999;
+	opacity: 1;
 }
 
 /* Trigger text */
 
 .tooltip-item {
-	background: rgba(0,0,0,0.3);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 700;
-	padding: 0 10px;
 }
 
 /* Gap filler */
@@ -38,15 +37,15 @@
 	position: absolute;
 	z-index: 9999;
 	width: 360px;
+	opacity: 0;
 	left: 50%;
 	margin: 0 0 20px -180px;
 	bottom: 100%;
 	text-align: left;
-	font-size: 0.765em;
+	font-size: 15px;
 	line-height: 1.4;
 	box-shadow: -5px -5px 15px rgba(48,54,61,0.2);
 	background: #2a3035;
-	opacity: 0;
 	cursor: default;
 	pointer-events: none;
 }
